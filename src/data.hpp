@@ -97,6 +97,9 @@ public:
    *                                blocks will be encoded into the block. Note that there
    *                                will be no outer TLV header of the Data packet.
    */
+
+   // Data(Data &data);
+
   template<encoding::Tag TAG>
   size_t
   wireEncode(EncodingImpl<TAG>& block, bool wantUnsignedPortionOnly = false) const;

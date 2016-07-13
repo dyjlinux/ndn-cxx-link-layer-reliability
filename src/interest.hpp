@@ -94,6 +94,7 @@ public:
   explicit
   Interest(const Block& wire);
 
+  // Interest(Interest &interest);
   /**
    * @brief Fast encoding or block size estimation
    */

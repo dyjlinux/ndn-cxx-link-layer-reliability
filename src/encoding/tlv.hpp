@@ -58,6 +58,7 @@ public:
 };
 
 enum {
+  
   Interest      = 5,
   Data          = 6,
   Name          = 7,
@@ -87,6 +88,20 @@ enum {
   LinkPreference = 30,
   LinkDelegation = 31,
   SelectedDelegation = 32,
+
+  LinkAck = 33, 
+  RepeatRequest = 34,
+
+  AckNumber = 35,
+  RepeatNumber = 36,
+
+  LinkEcho = 37,
+  LinkReply = 38,
+  
+  LinkPbAck = 39,
+  
+  AckGroup = 40,
+  RepeatGroup = 41,
 
   AppPrivateBlock1 = 128,
   AppPrivateBlock2 = 32767

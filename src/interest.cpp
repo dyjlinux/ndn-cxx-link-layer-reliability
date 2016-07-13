@@ -247,7 +247,6 @@ Interest::wireEncode(EncodingImpl<TAG>& block) const
   //                SelectedDelegation?
 
   // (reverse encoding)
-
   if (hasLink()) {
     if (hasSelectedDelegation()) {
       totalLength += prependNonNegativeIntegerBlock(block,

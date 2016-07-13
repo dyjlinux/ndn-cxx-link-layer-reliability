@@ -60,7 +60,6 @@ Data::wireEncode(EncodingImpl<TAG>& encoder, bool unsignedPortion/* = false*/) c
   //            Signature
 
   // (reverse encoding)
-
   if (!unsignedPortion && !m_signature)
     {
       throw Error("Requested wire format, but data packet has not been signed yet");
